@@ -1,38 +1,62 @@
-.App {
+body {
+  background: lightblue;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.page-header {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  margin:0;
+  padding:0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  margin: 0;
+  padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
   flex-direction: column;
-  align-items: center;
+}
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 40px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.personalInfo {
+  width: 760px;
+  background-color: #1256de;
+  border-radius: 30px;
+  padding: 0px 40px 20px;
+  display: flex;
+  justify-content: left;
 }
 
-.App-link {
-  color: #61dafb;
+.infoText {
+  width: 300px;
+  margin: 20px 100px 20px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+p {
+  font-size: 20px;
+}
+.top-pics img {
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.bottom-pic img {
+  width: 200px;
+  border-radius: 30px;
+  margin: 40px 40px 0px 40px;
+  object-fit: cover;
+}
+.links {
+  text-align: center;
 }
